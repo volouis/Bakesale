@@ -8,6 +8,35 @@
 		<data>
 		R99joev+TXSRk1/Gb7AagQNAiwI=
 		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		HK6asLJ70IK7E4e83e8R1gxACHo=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/8LQToTPOL9FsEsYDaACQ21Day0=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		P6P66kW7+LvLIo4WHjXGltpT8CA=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		xKX69bDGMJa2TcU/BC9ypZ06rsI=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		Po5JO/bVGL++ebYbBOPv5J14YUc=
@@ -15,6 +44,26 @@
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlugIns/BakesaleTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		Zqi0Gm6P4oC1FtOlv83V4UTRtKI=
+		</data>
+		<key>PlugIns/BakesaleTests.xctest.dSYM/Contents/Resources/DWARF/BakesaleTests</key>
+		<data>
+		cW0MiQnLEuvgHKNjQDIPEl+SMko=
+		</data>
+		<key>PlugIns/BakesaleTests.xctest/BakesaleTests</key>
+		<data>
+		LGc1xy36oB3rPLvl0Z6KFogWX4I=
+		</data>
+		<key>PlugIns/BakesaleTests.xctest/Info.plist</key>
+		<data>
+		bwUbSrm9pBdgIS4qu3S1+YThEok=
+		</data>
+		<key>PlugIns/BakesaleTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		+yjfHksiJoT8vRsn4st3/pTWRsM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -28,6 +77,129 @@
 			<key>hash2</key>
 			<data>
 			kN5c6uOBUm+NpoKbFmlZiN6bgkJQCC7A93tovhA1VmI=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			VfVpYXVjG5OK2j8J39CP2mIMg1P5eFaYkRIJ/Hb2RSQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HK6asLJ70IK7E4e83e8R1gxACHo=
+			</data>
+			<key>hash2</key>
+			<data>
+			olgg9NXiZ2M1ifvjBR8uTJxtXlM5EacLdDrNxfmImoY=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/8LQToTPOL9FsEsYDaACQ21Day0=
+			</data>
+			<key>hash2</key>
+			<data>
+			C7sJpbu4qpi8/rH5JYpdQYncotP69JQ9Fiu8jrHXYvU=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P6P66kW7+LvLIo4WHjXGltpT8CA=
+			</data>
+			<key>hash2</key>
+			<data>
+			2BV684CZjHtMZHxSiwC5qc/DGXv9WIOWUc9dEU/Q1pw=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xKX69bDGMJa2TcU/BC9ypZ06rsI=
+			</data>
+			<key>hash2</key>
+			<data>
+			jJ/zKe1SwWk9KkZ4MXV01NPW4QiHpU1aZhpfTDknkp0=
+			</data>
+		</dict>
+		<key>PlugIns/BakesaleTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zqi0Gm6P4oC1FtOlv83V4UTRtKI=
+			</data>
+			<key>hash2</key>
+			<data>
+			YveiIUhyhxIPg2vSQRGVguwvqCa5BKL4zu+EZ9650mc=
+			</data>
+		</dict>
+		<key>PlugIns/BakesaleTests.xctest.dSYM/Contents/Resources/DWARF/BakesaleTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cW0MiQnLEuvgHKNjQDIPEl+SMko=
+			</data>
+			<key>hash2</key>
+			<data>
+			IEhbGiA+m57ZTyE1GmgE5YdJixBVpK23UUHt6eyQLtc=
+			</data>
+		</dict>
+		<key>PlugIns/BakesaleTests.xctest/BakesaleTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LGc1xy36oB3rPLvl0Z6KFogWX4I=
+			</data>
+			<key>hash2</key>
+			<data>
+			afVPqsoPDAzC77Sw7+dedliDTDph5dUbYSm3CvKDRbA=
+			</data>
+		</dict>
+		<key>PlugIns/BakesaleTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bwUbSrm9pBdgIS4qu3S1+YThEok=
+			</data>
+			<key>hash2</key>
+			<data>
+			f0iKTxjGGNrQuRHVLoRoHOXZoDxxVAhDGBW2j/TqnRM=
+			</data>
+		</dict>
+		<key>PlugIns/BakesaleTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+yjfHksiJoT8vRsn4st3/pTWRsM=
+			</data>
+			<key>hash2</key>
+			<data>
+			eF8oJ2lQhAgpo7J66J9Zt+mMo907ORou6p4XI0VuU3k=
 			</data>
 		</dict>
 	</dict>

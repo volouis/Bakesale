@@ -4,11 +4,13 @@ import {StyleSheet, Text, View} from 'react-native';
 import ajax from './../ajax'
 import DealList from './DealList'
 import DealDetail from "./DealDetail"
+import SearchBar from "./SearchBar"
 
 class App extends React.Component {
   state = {
     deals: [],
     currentDealId: null,
+    dealsFromSearch: []
   }
 
   async componentDidMount(){
@@ -30,17 +32,39 @@ class App extends React.Component {
     )
   }
 
+  searchDeals = async (searchTerm) => {
+    let dealsFromSearch = [];
+    
+    if(searchTerm) {
+      dealsFromSearch = await ajax.fetchDealSearchResult(searchTerm);
+      
+    }
+    this.setState({dealsFromSearch});
+  }
+
   render() {
     if(this.state.currentDealId) {
       return (
-        <DealDetail 
-          initialDealData={this.currentDeal()}
-          onBack={this.unsetCurrentDeal}
-      />)
+        <View style={styles.main}>
+          <DealDetail 
+            initialDealData={this.currentDeal()}
+            onBack={this.unsetCurrentDeal}
+          />
+        </View>
+      )
     }
     
-    if(this.state.deals.length > 0) {
-      return <DealList deals={this.state.deals} onItemPress={this.setCurrentDeal}/>
+    const dealsToDisplay = this.state.dealsFromSearch.length > 0 ?
+      this.state.dealsFromSearch :
+      this.state.deals
+
+    if(dealsToDisplay.length > 0) {
+      return (
+        <View style={styles.main}>
+          <SearchBar searchDeals={this.searchDeals}/>
+          <DealList deals={dealsToDisplay} onItemPress={this.setCurrentDeal}/>
+        </View>
+        )
     }
 
     return (
@@ -52,6 +76,10 @@ class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  main: {
+    marginTop: 40
+  },
+
   container: {
     flex: 1,
     justifyContent: 'center',

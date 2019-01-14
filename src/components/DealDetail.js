@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   backLink: {
-    marginTop: 50,
+
     marginBottom: 5,
     color: '#22f',
     marginLeft: 10,
